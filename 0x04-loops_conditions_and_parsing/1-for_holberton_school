@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#this file print the holberton	school 10
+for (( x= 1; x<= 10; x++ ))
+do
+	echo "Holberton School"
+done

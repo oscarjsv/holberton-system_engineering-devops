@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this task print Holberont school with while
+while (( x<= 10-1))
+do
+    echo "Holberton School"
+    ((x++))
+done
