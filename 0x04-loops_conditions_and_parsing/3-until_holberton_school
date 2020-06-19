@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this its the loop for the until
+until (( x>= 10))
+do
+    echo "Holberton School"
+    ((x++))
+done
