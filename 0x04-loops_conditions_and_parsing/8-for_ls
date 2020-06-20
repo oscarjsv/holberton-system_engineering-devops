@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# cut and delimiter
+files="$(ls --format=single-column)"
+for i in $files
+do
+	echo "$i" | cut -d '-' -f2
+done
