@@ -3,7 +3,7 @@
 count=0
 while [ $count -lt 13 ]
 do
-  echo "hour:$count"
+  echo "Hour:$count"
 
     num=1
 
