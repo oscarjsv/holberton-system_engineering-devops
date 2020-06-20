@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#count number 1 to 20
+contador=0
+termina=20
+while [ $termina -ge $contador ]
+do
+  echo $contador
+    if ((contador == 4 ))
+    then
+       echo "bad luck from China"
+    elif ((contador == 9))
+    then
+        echo "bad luck from Japan"
+    elif ((contador == 17))
+    then
+        echo "bad luck from Italy"
+    fi
+     ((contador++))
+done
