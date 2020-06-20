@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#count de reloj
+count=0
+while [ $count -lt 13 ]
+do
+  echo "hour:$count"
+
+    num=1
+
+    while [ $num -lt 60 ]
+    do
+        echo $num
+    ((num++))
+    done
+
+((count++))
+done
