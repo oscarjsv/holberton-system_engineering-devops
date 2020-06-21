@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#print parse ip
+file="apache-access.log"
+awk '{print $1 " " $9}' $file
