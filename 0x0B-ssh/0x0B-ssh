@@ -1,2 +1,0 @@
-#create key rsa
-ssh-keygen -f holberton -b 4906 -t -N betty
