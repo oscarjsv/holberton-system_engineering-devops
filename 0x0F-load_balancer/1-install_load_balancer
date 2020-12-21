@@ -10,7 +10,7 @@ frontend oscar
 
 backend backendnodes
     balance roundrobin
-    server 1551-web-01  check
-    server 1551-web-02  check " >> /etc/haproxy/haproxy.cfg
+    server 1551-web-01 35.237.181.211 check
+    server 1551-web-02 35.229.39.168  check " >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
