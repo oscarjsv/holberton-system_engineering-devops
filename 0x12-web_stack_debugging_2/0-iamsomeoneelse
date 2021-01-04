@@ -1,0 +1,4 @@
+ #!/usr/bin/env bash
+ #comment for the script
+ sudo -u "$1" whoami
+ 
